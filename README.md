@@ -6,7 +6,7 @@ This analysis intended to efficiently analyze large amounts of stock data using 
 
 ## Results
 
-The original code used two loops: an outer loop iterated through each stock ticker while an inner loop iterated through each row of the data and gathered information relevant to the current stock ticker.
+The original code uses two loops: an outer loop iterates through each stock ticker while an inner loop iterates through each row of the data and gathers information relevant to the current stock ticker.
 
 ![Original Code](Resources/Original_Loops.png)
 
@@ -16,7 +16,7 @@ When run on stock data from 2017 and 2018, the original code took about 0.7-0.8 
 
 ![2018 Original Results](Resources/2018_Original.png)
 
-The refactored code, in contrast, used arrays to store relevant data for *every ticker* during a single loop of the data.
+The refactored code, in contrast, uses arrays to store relevant data for *every ticker* during a single loop of the data.
 
 ![Refactored Code](Resources/Refactored_Loops.png)
 
